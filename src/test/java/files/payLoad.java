@@ -15,5 +15,16 @@ public class payLoad {
 		
 		return payload;
 	}
+	
+	public static String deleteBook(String id) {
+		String payload2 = "{\r\n"
+				+ " \r\n"
+				+ "\"ID\" : \""+id+"\"\r\n"
+				+ " \r\n"
+				+ "} \r\n"
+				+ "";
+		
+		return payload2;
+	}
 
 }
